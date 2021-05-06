@@ -3,7 +3,7 @@ CryptMyFile chiffre et déchiffre vos fichiers de tous types (png, js, txt...) e
 
 # Installation 🛠
 ```bash
-git clone
+git clone https://github.com/deo7/CryptMyFile.git
 cd CryptMyFile
 pip install -r requirements.txt
 ```
