@@ -1,5 +1,2 @@
 hashlib
-random
-string
 pyfiglet
-time
