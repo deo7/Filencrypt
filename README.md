@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```python
 python main.py [-h] [-e] [-d] [-hp] [-c]
 ```
-## Conseils
+## Tips
 * Make sure to put the main file 'main.py' in the same folder as the file to be encrypted / decrypted
 
 * Don't forget the extension (txt, html, rb,...)  when the program asks you for the file name
