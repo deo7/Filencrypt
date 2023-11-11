@@ -26,22 +26,19 @@ except:
 
 def banner():
     try:
-        pfbanner = text2art("SafeCipher", font='block')
+        pfbanner = text2art("SafeCipher", font='small', chr_ignore=True)
         print(pfbanner)
-        print("                 Made with", Fore.RED, chr(
-            9829), Style.RESET_ALL, "by Déodorant#7144")
+        print("               SafeCipher- A file encryption/decryption tool")
         print("               https://github.com/deo7/Filencrypt")
     except:
-         sys.exit(Fore.RED + "\n[-]" + Style.RESET_ALL +
+        sys.exit(Fore.RED + "\n[-]" + Style.RESET_ALL +
                  " Error - Banner error. Run 'pip install art' and re-try.")
 
 
 def menu():
     print("\n\nMenu")
-    print("[1] Encrypt")
-    print("[2] Decrypt")
-    print("[3] Informations")
-    print("[4] Contact dev")
+    print("Press 1 to Encrypt a file")
+    print("press 2 to Decrypt a file")
 
 
 def encryption():
