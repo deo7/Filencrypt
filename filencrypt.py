@@ -25,14 +25,14 @@ except:
 
 def banner():
     try:
-        pfbanner = pyfiglet.figlet_format("SafeCipher", font="graffiti")
+        pfbanner = text2art("SafeCipher", font='block')
         print(pfbanner)
         print("                 Made with", Fore.RED, chr(
             9829), Style.RESET_ALL, "by Déodorant#7144")
         print("               https://github.com/deo7/Filencrypt")
-    except pyfiglet.FontNotFound:
+    except:
         sys.exit(Fore.RED + "\n[-]" + Style.RESET_ALL +
-                 " Error - Banner error. Run 'sudo pip3 install --upgrade pyfiglet' and re-try.")
+                 " Error - Banner error. Run 'pip install art' and re-try.")
 
 
 def menu():
