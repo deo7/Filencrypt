@@ -17,6 +17,7 @@ try:
     import time
     import sys
     import os
+    from art import text2art
     import colorama
 except:
     sys.exit(Fore.RED + "\n[-]" + Style.RESET_ALL +
